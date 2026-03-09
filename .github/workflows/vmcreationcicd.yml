@@ -5,7 +5,7 @@ on: [push, workflow_dispatch]
 env:
   RESOURCE-GROUP: az2006-rg
   LOCATION: eastus
-  TEMPLATE-FILE: infra/vmcreation.bicep
+  TEMPLATE-FILE: infra/vmcreation.bicep 
   SUBSCRIPTION-ID: 02624755-b5c1-4c0c-8852-358ec24c439d
   VM-NAME: az2006app59792586
   ADMIN-USERNAME: azureuser
